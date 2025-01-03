@@ -1,0 +1,29 @@
+Steps for creating GitHub:
+*Create account in git-hub
+*Create repo in a git-hub
+  https://github.com/shravya2027/batch1.git
+*Open vs code and open terminal in vs code
+*Initialize git in a terminal
+ Command: git init
+*Configure username and email to gitHub
+  Command: git config --global user.name "shravya2027"
+           git config --global user.gmail "2211cs010192@mallareddyuniversity.ac.in"
+*Add remote URL to local repo
+  Command: git remote add origin https://github.com/shravya2027/batch1.git
+*Convert untracked files to tracked files
+    Command: git add .
+             git commit -m "my new project"
+*to push to github
+     git push -u origin master
+merging more than one branch
+*Create a branch
+    git branch branch-name
+    git branch
+    git checkout branch-name
+    git add .
+    git commit -m ""
+    git push -u origin branch-name(dev1)
+*While merging branch always be in the master branch
+   git checkout branch-name(master)
+Command for merging
+   git merge branch-name(dev1) 
