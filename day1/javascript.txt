@@ -1,0 +1,33 @@
+Command for pull:
+git pull origin branch name
+JAVASCRIPT:
+->What is javascript?
+It is a object based programming language used to convert static page into dynamic page
+Datatypes:
+It is a value used in programming language
+.1.Primitive datatypes:
+*Number
+*String
+*Boolean
+*Undefined
+*Null
+*big-int
+2.Non-Primitive datatypes:
+*Class
+*Object
+*Array
+*Functions
+*Map
+*Sets
+*Variable is used to store data/values in a table and it is dynamic in nature
+Eg: var a=10
+    var b="hello"
+->Scopes:
+*global-scope
+*local-scope/script scope
+*block-scope:{
+             }
+Variable has been divided into 3 types:
+*var
+*let
+*const

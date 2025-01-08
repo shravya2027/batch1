@@ -1,0 +1,52 @@
+looping-statement:It is used to iterate a code/statement based on the condition.
+
+1.while-loop-by default having zero iteration
+2.do-while loop-by default having one iteration
+3.for-loop
+4.for-each loop
+
+while-loop:
+*It will iterates the statement until condition becomes false
+Syntax:
+while(condition)
+{
+    statement
+}
+
+eg:
+let n=1;
+while(n<=5)
+{
+    console.log(n)
+    n++
+}
+
+
+for-loop:
+
+Syntax:
+for(initialization; condition; increment/decrement)
+{
+    statement
+}
+
+eg:
+for(let i=0;i<=5;i++)
+{
+    console.log(i)
+}
+//0 1 2 3 4 5
+
+do-while loop:
+*It iterates set of instructions then it will check the condition.
+Syntax:
+do{
+    statement
+}while(condition)
+
+eg:
+let m=1
+do{
+    console.log(m)
+    m++
+}while(m<=5)
