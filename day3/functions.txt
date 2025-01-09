@@ -28,8 +28,19 @@ Syntax:
 ->Typecasting:Converting of one type of datatype into another type
 ->Implicit typecasting:Converting of one type of datatype into another type by javascript engine.
 ->Explicit typecasting:Converting of one type of datatype into another type by programmer.
-->Write a function to find largest of three numbers and the input will be given from the enduser.
+2.Write a function to find largest of three numbers and the input will be given from the enduser.
 ->Function Expression:
 *Assigning function as a value to one variable is called function Expression. 
 *It is used to perform specific task
 ->Anonomous Function:A function having no name.
+*Difference between function declaration and function expression is hoisting.
+3.Create a function expression to perform arithmetic operation for three numbers and find the largest of three numbers and find the largest of three numbers and the input should be taken from the end user.
+->Funtion Programming:
+Higher order function and callback function:
+*It is used to perform generic task(multiple task).
+*It can be created using function declaration statement or function expression or arrow function.
+->Higher order function:
+*A function which accepts another function as an argument.
+->Callback function:
+*A function which passed as an argument to higher order function
+*With the help of higher order function and callback function we can perform multiple tasks.
