@@ -44,3 +44,29 @@ Higher order function and callback function:
 ->Callback function:
 *A function which passed as an argument to higher order function
 *With the help of higher order function and callback function we can perform multiple tasks.
+->Arrow function:
+*It was introduced in ES-6 version 2015(ECMA(European computer manufacture association)-SCRIPT)/LIVE-SCRIPT/MOCHA
+*It is used to reduce number of lines in a code
+* There are two types of return:
+1.Implicit return arrow function
+2.Explicit return arrow function
+
+->Implicit return arrow function:
+*no need of using return keyword
+Syntax:
+let a = () => console.log("hello");
+console.log(a);
+a()
+           |
+       fat arrow
+
+->Explicit return arrow function:
+*return keyword is mandatory
+
+let b = () => { return "hello" }
+console.log(b);
+console.log(b());
+
+
+
+
